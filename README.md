@@ -14,38 +14,24 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[Graphite](https://graphite.dev/)**  
-  Developer productivity platform focused on stacked PRs with integrated AI review — optimized for fast, low-noise feedback in modern Git workflows.
 
-- **[CodeRabbit](https://www.coderabbit.ai/)**  
-  Widely adopted AI code review GitHub/GitLab app that posts inline comments and PR summaries with minimal setup and continuous incremental review.
-
-- **[CodeScene](https://codescene.com/)**  
-  Behavioral code analysis and technical-debt platform that surfaces hotspots and prioritizes review attention based on how code actually evolves.
-
-- **[Codacy](https://www.codacy.com/)**  
-  Automated code review and static analysis platform with quality and security checks, plus AI-assisted review modes across many languages.
-
-- **[SonarQube / SonarCloud](https://www.sonarsource.com/)**  
-  Industry-standard static analysis and quality-gate platform (Cloud and self-hosted) used to enforce reliability, security, and maintainability policies at merge time.
-
-- **[Reviewable](https://reviewable.io/)**  
-  Structured code review platform designed for thorough human + tool-assisted review workflows on GitHub.
-
-- **[PullRequest.com](https://www.pullrequest.com/)**  
-  On-demand expert code review service combined with tooling to improve review coverage and quality.
-
-- **[Qodo (CodiumAI)](https://www.qodo.ai/)**  
-  AI code review and test-generation platform (including open-source PR-Agent lineage) focused on bugs, quality, security, and automated tests.
-
-- **[DeepSource](https://deepsource.com/)**  
-  Automated code review platform with static analysis, security rules, and Autofix capabilities across many languages.
+| Product | Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Graphite](https://graphite.dev/)** | Developer productivity platform focused on stacked PRs with integrated AI review — optimized for fast, low-noise feedback in modern Git workflows. | Free forever tier; Paid plans start at **$20/user/month** (Starter) or **$40/user/month** (Team, billed annually) | **Hobby Plan (Free forever):** Free for personal repos with Graphite CLI, VS Code extension, and limited AI review/Graphite Agent runs.<br>**Trial:** 30-day free trial of Team plan (no credit card required). |
+| **[CodeRabbit](https://www.coderabbit.ai/)** | Widely adopted AI code review GitHub/GitLab app that posts inline comments and PR summaries with minimal setup and continuous incremental review. | Free forever tier; Paid plans start at **$24/contributing developer/month** (Pro, billed annually) or **$30/month** (monthly) | **Free Forever Plan:** Free PR summaries on public/private repos; IDE/CLI review with rate limits; Free Pro+ features for Open Source.<br>**Trial:** 14-day free trial of Pro+ plan (no credit card required). |
+| **[CodeScene](https://codescene.com/)** | Behavioral code analysis and technical-debt platform that surfaces hotspots and prioritizes review attention based on how code actually evolves. | Paid plans start at **€18/active author/month** (Standard, billed annually) or **€27/active author/month** (Pro, billed annually) | **Community Edition (Free forever):** Unlimited public/open-source repositories with Code Health insights and PR quality gates.<br>**Trial:** 14-day full-featured free trial for Standard or Pro (no credit card required). |
+| **[Codacy](https://www.codacy.com/)** | Automated code review and static analysis platform with quality and security checks, plus AI-assisted review modes across many languages. | Free forever tier; Paid plans start at **$18/developer/month** (Team, billed annually) | **Developer / Open Source Plan (Free forever):** Free for open-source repositories and individual IDE extension use.<br>**Trial:** 14-day full-featured free trial for private repos (no credit card required). |
+| **[SonarQube / SonarCloud](https://www.sonarsource.com/)** | Industry-standard static analysis and quality-gate platform (Cloud and self-hosted) used to enforce reliability, security, and maintainability policies at merge time. | Free forever tier; Paid plans start at **$32–$34/month** (Team tier on SonarCloud for up to 100k lines of code) | **Free Forever Tier:** Free for up to 50,000 LOC on private projects (up to 5 team members) and unlimited LOC for open-source public repositories.<br>**Self-hosted:** SonarQube Community Edition is 100% free and open-source. |
+| **[Reviewable](https://reviewable.io/)** | Structured code review platform designed for thorough human + tool-assisted review workflows on GitHub. | Free forever tier; Paid plans start at **$16/contributor/month** (Business, billed annually) | **Free Forever Plan:** Free for all public repositories and personal private repositories on individual user accounts (unlimited reviews, 10MB file upload limit).<br>**Trial:** 30-day free trial of Business plan for organizations (no credit card required). |
+| **[PullRequest.com](https://www.pullrequest.com/)** | On-demand expert code review service combined with tooling to improve review coverage and quality (now HackerOne Code). | Automated analysis starts at **$9/seat/month**; Managed review packages start at **$129/month** or custom quotes | **Free Code Quality Metrics:** Free dashboard metrics for teams.<br>**Trial / POC:** No self-serve trial; offers custom Proof-of-Concept (POC) and interactive guided product walkthroughs on request. |
+| **[Qodo (CodiumAI)](https://www.qodo.ai/)** | AI code review and test-generation platform (including open-source PR-Agent lineage) focused on bugs, quality, security, and automated tests. | Free forever tier; Pro Team credit packs start at **$30/month** (~2,500 credits pool at $0.012/credit) | **Developer Plan (Free forever):** Free IDE plugins with ~250 credits/month; Free Open Source Plan for active GitHub public repos (100+ stars).<br>**Trial:** 14-day free trial with full feature access and unlimited usage. |
+| **[DeepSource](https://deepsource.com/)** | Automated code review platform with static analysis, security rules, and Autofix capabilities across many languages. | Free forever tier; Paid plans start at **$24/active contributor/month** (Team, billed annually) or **$30/month** (monthly) | **Free Forever Plan:** Up to 3 private repositories, 3 team members, and 3 SCA targets; Free for public/open-source repos.<br>**Trial:** 14-day free trial of Team plan with full features and bundled AI Review credits. |
 
 ## Open-Source GitHub Projects
 - **[PR-Agent (Qodo)](https://github.com/qodo-ai/pr-agent)**  
